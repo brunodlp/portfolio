@@ -7,14 +7,15 @@ function Contact() {
   return (
     <section
       id="contact"
-      className=" scroll-mt-20 flex items-center flex-col p-10 m-10 mb-0 gap-6"
+      className="scroll-mt-20 flex flex-col px-4 md:px-5 py-5 md:pt-0 items-center space-y-6"
     >
       <h1 className="text-5xl m-5 bg-gradient-to-r from-blue-500 via-cyan-400 to-emerald-400 drop-shadow-[0_0_10px_rgba(56,189,248,0.3)] bg-clip-text text-transparent font-mono font-bold">
         Contacto
       </h1>
-      <p className="text-gray-400 text-xl">
+      <p className="text-gray-400 text-xl text-center">
         Actualmente disponible para nuevas oportunidades
       </p>
+
       <h2 className="text-3xl font-bold text-white font-mono mt-8">
         ¡Conectemos!
       </h2>

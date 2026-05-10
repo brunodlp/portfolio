@@ -12,7 +12,7 @@ function Projects() {
   return (
     <section
       id="projects"
-      className="scroll-mt-20 flex flex-col p-10 m-10 mb-0"
+      className="scroll-mt-20 flex flex-col px-4 md:px-10 py-10 md:py-0 items-center md:items-start md:m-10"
     >
       <h1 className="text-5xl m-5 bg-gradient-to-r from-blue-500 via-cyan-400 to-emerald-400 drop-shadow-[0_0_10px_rgba(56,189,248,0.3)] bg-clip-text text-transparent font-mono font-bold">
         Proyectos
