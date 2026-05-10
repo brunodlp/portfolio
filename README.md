@@ -1,16 +1,57 @@
-# React + Vite
+# 🚀 Portfolio - Bruno De la Penna
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Portfolio profesional desarrollado con React y Tailwind CSS para presentar proyectos, experiencia y habilidades técnicas de forma moderna, dinámica y responsive.
 
-Currently, two official plugins are available:
+## 🌐 Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🔗 Próximamente disponible en Vercel
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+# ✨ Características
 
-## Expanding the ESLint configuration
+- 🎨 Diseño moderno y responsive
+- 🌙 Interfaz oscura con gradientes y efectos visuales modernos
+- 🚀 Navegación dinámica con scroll suave
+- 📌 Navbar interactiva
+- 🎠 Carrusel de proyectos utilizando Swiper.js
+- 📄 Descarga de CV en PDF
+- 📱 Integración con GitHub, LinkedIn, WhatsApp y correo electrónico
+- ✨ Animaciones y efectos hover avanzados
+- 📱 Adaptado para dispositivos móviles y escritorio
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+# 🛠️ Tecnologías utilizadas
+
+## Frontend
+
+- React
+- JavaScript
+- Tailwind CSS
+- Swiper.js
+- React Icons
+
+---
+
+# 📂 Secciones del portfolio
+
+- Inicio
+- Sobre mí
+- Experiencia
+- Educación
+- Habilidades
+- Proyectos
+- Contacto
+
+---
+
+# 📬 Contacto
+
+📧 Email: [bdelapenna@gmail.com](mailto:bdelapenna@gmail.com)
+
+💼 LinkedIn: [https://linkedin.com/in/brunodelapenna](https://linkedin.com/in/brunodelapenna)
+
+🐙 GitHub: [https://github.com/brunodlp](https://github.com/brunodlp)
+
+---
