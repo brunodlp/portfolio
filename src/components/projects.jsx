@@ -298,14 +298,14 @@ function Projects() {
               </ul>
               <div className="flex gap-8">
                 <a
-                  href="https://github.com/Jcambareri6/TPE-WEB2-ECOMMERCE"
+                  href="https://github.com/brunodlp/portfolio"
                   target="_blank"
                   className="flex items-center gap-2 text-gray-300"
                 >
                   <FaGithub className="text-white" /> Repositorio
                 </a>
                 <a
-                  href="https://github.com/brunodlp/TPE3-WEB2-API"
+                  href="https://brunodelapenna.vercel.app/"
                   target="_blank"
                   className="flex items-center gap-2 text-gray-300"
                 >

@@ -4,7 +4,7 @@ Portfolio profesional desarrollado con React y Tailwind CSS para presentar proye
 
 ## 🌐 Demo
 
-🔗 Próximamente disponible en Vercel
+https://brunodelapenna.vercel.app/
 
 ---
 
