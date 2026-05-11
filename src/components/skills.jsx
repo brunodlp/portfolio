@@ -11,9 +11,10 @@ import {
 } from "react-icons/si";
 import { IoLogoCss3 } from "react-icons/io";
 import { GrMysql } from "react-icons/gr";
+import { motion } from "framer-motion";
 function Skills() {
   return (
-    <section
+    <motion.section
       id="skills"
       className="scroll-mt-20 flex flex-col px-4 md:px-10 py-10 items-center md:items-start md:m-10"
     >
@@ -21,7 +22,12 @@ function Skills() {
         Habilidades
       </h1>
       <div className="grid md:grid-cols-2 gap-6 m-5 md:w-full">
-        <div className="text-gray-200 flex flex-col items-center  font-sans border border-gray-700 rounded-xl p-6 text-lg space-y-5 max-w-none h-full bg-[#242e46] hover:shadow-lg hover:shadow-blue-500/20  duration-300 hover:translate-y-[-6px]">
+        <motion.div
+          className="text-gray-200 flex flex-col items-center  font-sans border border-gray-700 rounded-xl p-6 text-lg space-y-5 max-w-none h-full bg-[#242e46] hover:shadow-lg hover:shadow-blue-500/20  duration-300 hover:translate-y-[-6px]"
+          initial={{ opacity: 0, x: -80 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.7 }}
+        >
           <h2 className="font-bold text-cyan-300 ">Backend</h2>
           <ul className="grid grid-cols-2 gap-8 md:flex md:flex-wrap">
             <li className="flex flex-col items-center border border-transparent hover:bg-[#2a2a9c89] rounded-xl duration-300 p-6 hover:translate-y-[-3px]">
@@ -40,8 +46,13 @@ function Skills() {
               Spring Boot
             </li>
           </ul>
-        </div>
-        <div className="text-gray-200 flex flex-col items-center font-sans border border-gray-700 rounded-xl p-6 text-lg space-y-5 max-w-none h-full bg-[#242e46] hover:shadow-lg hover:shadow-blue-500/20  duration-300 hover:translate-y-[-6px]">
+        </motion.div>
+        <motion.div
+          className="text-gray-200 flex flex-col items-center font-sans border border-gray-700 rounded-xl p-6 text-lg space-y-5 max-w-none h-full bg-[#242e46] hover:shadow-lg hover:shadow-blue-500/20  duration-300 hover:translate-y-[-6px]"
+          initial={{ opacity: 0, x: 80 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.7 }}
+        >
           <h2 className="font-bold text-cyan-300">Frontend</h2>
           <ul className="grid grid-cols-2 gap-8 md:flex md:flex-wrap">
             <li className="flex flex-col items-center border border-transparent hover:bg-[#2a2a9c89] rounded-xl duration-300 p-6 hover:translate-y-[-3px]">
@@ -65,8 +76,13 @@ function Skills() {
               Tailwind
             </li>
           </ul>
-        </div>
-        <div className="text-gray-200 flex flex-col items-center font-sans border border-gray-700 rounded-xl p-6 text-lg space-y-5 max-w-none h-full bg-[#242e46] hover:shadow-lg hover:shadow-blue-500/20  duration-300 hover:translate-y-[-6px]">
+        </motion.div>
+        <motion.div
+          className="text-gray-200 flex flex-col items-center font-sans border border-gray-700 rounded-xl p-6 text-lg space-y-5 max-w-none h-full bg-[#242e46] hover:shadow-lg hover:shadow-blue-500/20  duration-300 hover:translate-y-[-6px]"
+          initial={{ opacity: 0, x: -80 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.7 }}
+        >
           <h2 className="font-bold text-cyan-300">Bases de Datos</h2>
           <ul className="grid grid-cols-1 gap-8 md:flex md:flex-wrap">
             <li className="flex flex-col items-center border border-transparent hover:bg-[#2a2a9c89] rounded-xl duration-300 p-6 hover:translate-y-[-3px]">
@@ -82,8 +98,13 @@ function Skills() {
               MongoDB
             </li>
           </ul>
-        </div>
-        <div className="text-gray-200 flex flex-col items-center font-sans border border-gray-700 rounded-xl p-6 text-lg space-y-5 max-w-none h-full bg-[#242e46] hover:shadow-lg hover:shadow-blue-500/20  duration-300 hover:translate-y-[-6px]">
+        </motion.div>
+        <motion.div
+          className="text-gray-200 flex flex-col items-center font-sans border border-gray-700 rounded-xl p-6 text-lg space-y-5 max-w-none h-full bg-[#242e46] hover:shadow-lg hover:shadow-blue-500/20  duration-300 hover:translate-y-[-6px]"
+          initial={{ opacity: 0, x: 80 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.7 }}
+        >
           <h2 className="font-bold text-cyan-300">Herramientas</h2>
           <ul className="grid grid-cols-2 gap-8 md:flex md:flex-wrap">
             <li className="flex flex-col items-center border border-transparent hover:bg-[#2a2a9c89] rounded-xl duration-300 p-6 hover:translate-y-[-3px]">
@@ -103,9 +124,9 @@ function Skills() {
               Docker
             </li>
           </ul>
-        </div>
+        </motion.div>
       </div>
-    </section>
+    </motion.section>
   );
 }
 export default Skills;

@@ -1,9 +1,14 @@
-import { FaMapMarkerAlt, FaCalendarAlt, FaChevronRight } from "react-icons/fa";
+import { FaMapMarkerAlt, FaCalendarAlt, FaCheck } from "react-icons/fa";
+import { motion } from "framer-motion";
 function Experience() {
   return (
-    <section
+    <motion.section
       id="experience"
       className="scroll-mt-20 flex flex-col px-4 md:px-10 py-10 items-center md:items-start md:m-10"
+      initial={{ opacity: 0, y: 50 }}
+      whileInView={{ opacity: 1, y: 60 }}
+      transition={{ duration: 0.7 }}
+      viewport={{ amount: 0.2 }}
     >
       <h1 className="text-5xl m-5 bg-gradient-to-r from-blue-500 via-cyan-400 to-emerald-400 drop-shadow-[0_0_10px_rgba(56,189,248,0.3)] bg-clip-text text-transparent font-mono font-bold">
         Experiencia
@@ -22,20 +27,21 @@ function Experience() {
         </div>
         <ul className="space-y-3">
           <li className="flex items-center gap-3">
-            <FaChevronRight className="text-5xl md:text-xl" />
+            <FaCheck className="text-cyan-400 text-sm shrink-0 mt-1" />
             Brinde soporte a alumnos, corrigiendo trabajos practicos y examenes
             y aclarando dudas sobre temas de Backend.
           </li>
           <li className="flex items-center gap-3">
-            <FaChevronRight /> Herramientas: PHP - MySQL - Git
+            <FaCheck className="text-cyan-400 text-sm shrink-0 mt-1" />{" "}
+            Herramientas: PHP - MySQL - Git
           </li>
           <li className="flex items-center gap-3">
-            <FaChevronRight />
+            <FaCheck className="text-cyan-400 text-sm shrink-0 mt-1" />
             Conceptos claves: Ruteo, API REST, Seguridad.
           </li>
         </ul>
       </div>
-    </section>
+    </motion.section>
   );
 }
 export default Experience;

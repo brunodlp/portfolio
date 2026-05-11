@@ -10,7 +10,7 @@ import Contact from "./components/contact";
 
 function App() {
   return (
-    <div className="min-h-screen bg-gradient-to-r from-[#020617] via-[#0f172a] to-[#111827]">
+    <div className="min-h-screen bg-gradient-to-r from-[#020617] via-[#0f172a] to-[#111827] overflow-x-hidden">
       <Navbar />
       <Hero />
       <About />

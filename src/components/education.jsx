@@ -1,9 +1,14 @@
 import { FaGraduationCap } from "react-icons/fa";
+import { motion } from "framer-motion";
 function Education() {
   return (
-    <section
+    <motion.section
       id="education"
       className="scroll-mt-20 flex flex-col px-4 md:px-10 py-10 items-center md:items-start md:m-10"
+      initial={{ opacity: 0, y: 50 }}
+      whileInView={{ opacity: 1, y: 60 }}
+      transition={{ duration: 0.7 }}
+      viewport={{ amount: 0.2 }}
     >
       <h1 className="text-5xl m-5 bg-gradient-to-r from-blue-500 via-cyan-400 to-emerald-400 drop-shadow-[0_0_10px_rgba(56,189,248,0.3)] bg-clip-text text-transparent font-mono font-bold">
         Educación
@@ -27,7 +32,7 @@ function Education() {
           Profesionales para graduarme.
         </p>
       </div>
-    </section>
+    </motion.section>
   );
 }
 export default Education;
