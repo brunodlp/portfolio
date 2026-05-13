@@ -56,12 +56,9 @@ function Projects() {
                 <div className="space-y-3 border border-gray-600 rounded-xl px-5 py-3 bg-gray-800">
                   <p>
                     Plataforma de alquiler de monopatines eléctricos
-                    desarrollada bajo una arquitectura de microservicios
-                    utilizando Java y Spring Boot.
-                  </p>
-                  <p>
-                    Backend de servicios REST implementado bajo una arquitectura
-                    de microservicios, desarrollado con Java y Spring Boot.
+                    desarrollada bajo una arquitectura Backend de microservicios
+                    utilizando Java y Spring Boot, incorporando ademas servicios
+                    REST.
                   </p>
                 </div>
 
