@@ -31,7 +31,7 @@ function Hero() {
           desarrollo de soluciones escalables, dinámicas y eficientes.
         </p>
         <button className="px-6 py-3 m-5 rounded-lg bg-gradient-to-r from-teal-400 to-blue-500 text-black font-semibold hover:opacity-90 transition">
-          <a href="/bruno-delapenna-fullstack-cv.pdf" download>
+          <a href="/Bruno_DelaPenna_BackendJavaDeveloper.pdf" download>
             Descargar CV
           </a>
         </button>
