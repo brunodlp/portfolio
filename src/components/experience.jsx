@@ -14,6 +14,28 @@ function Experience() {
         Experiencia
       </h1>
       <div className="text-gray-200 font-sans border border-gray-700 rounded-xl m-5 p-6 text-lg space-y-5 max-w-none h-full bg-[#242e46]">
+        <h2 className="text-xl font-bold">
+          Operario - Molinos Rio de La Plata
+        </h2>
+        <div className="flex flex-col md:flex-row gap-10">
+          <h3 className="flex items-center gap-2">
+            <FaMapMarkerAlt className="text-blue-400" />
+            Tres Arroyos
+          </h3>
+          <h3 className="flex items-center gap-2 text-gray-400">
+            <FaCalendarAlt className="text-blue-400" />
+            Diciembre 2025 - Enero 2026
+          </h3>
+        </div>
+        <ul className="space-y-3">
+          <li className="flex items-center gap-3">
+            <FaCheck className="text-cyan-400 text-sm shrink-0 mt-1" />
+            Desarrollé tareas de calado de cereales, lacrado de muestras y
+            organización y mantenimiento del lugar de trabajo
+          </li>
+        </ul>
+      </div>
+      <div className="text-gray-200 font-sans border border-gray-700 rounded-xl m-5 p-6 text-lg space-y-5 max-w-none h-full bg-[#242e46]">
         <h2 className="text-xl font-bold">Ayudante de catedra - Web 2</h2>
         <div className="flex flex-col md:flex-row gap-10">
           <h3 className="flex items-center gap-2">
