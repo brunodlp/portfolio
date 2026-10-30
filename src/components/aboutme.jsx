@@ -21,7 +21,7 @@ function About() {
             Desarrollo de Aplicaciones Informaticas, perteneciente a la
             Universidad Nacional del Centro de la Provincia de Buenos Aires.
             Actualmente estoy en la etapa final de mi formación academica,
-            adeudando solamente finales y las Practicas Profesionales
+            adeudando solamente un final y las Practicas Profesionales
             Supervisadas para graduarme.
           </p>
           <p>

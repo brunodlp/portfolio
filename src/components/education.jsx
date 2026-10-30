@@ -28,7 +28,7 @@ function Education() {
           </h3>
         </div>
         <p>
-          He finalizado todas las cursadas, adeudando finales y Practicas
+          He finalizado todas las cursadas, adeudando un final y Practicas
           Profesionales para graduarme.
         </p>
       </div>

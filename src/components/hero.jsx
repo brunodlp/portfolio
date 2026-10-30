@@ -27,7 +27,7 @@ function Hero() {
           Desarrollador Fullstack
         </h2>
         <p className="text-gray-300 max-w-2xl mx-auto text-sm md:text-lg leading-relaxed">
-          Desarrollador fullstack en formacion apasionado por la tecnologia y el
+          Desarrollador Fullstack Jr apasionado por la tecnologia y el
           desarrollo de soluciones escalables, dinámicas y eficientes.
         </p>
         <button className="px-6 py-3 m-5 rounded-lg bg-gradient-to-r from-teal-400 to-blue-500 text-black font-semibold hover:opacity-90 transition">
